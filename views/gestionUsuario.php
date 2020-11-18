@@ -74,11 +74,11 @@
                         <h5 class="center">Editar usuario</h5>
                         <form action="../controllers/ControlEditarEstado.php" method="POST" onsubmit="return confirm('Esta Seguro?')">
                                 <div class="input-field">
-                                    <input id="rut" type="text" name="rut" value="<?=$_SESSION['lista']['rut']?>">
+                                    <input readonly id="rut" type="text" name="rut" value="<?=$_SESSION['lista']['rut']?>">
                                     <label for="rut">Rut</label>
                                 </div>
                                 <div class="input-field">
-                                    <input id="nombre" type="text" name="nombre"value="<?=$_SESSION['lista']['nombre']?>">
+                                    <input readonly id="nombre" type="text" name="nombre"value="<?=$_SESSION['lista']['nombre']?>">
                                     <label for="nombre">Nombre</label>
                                 </div>
                                 <div class="input-field">
