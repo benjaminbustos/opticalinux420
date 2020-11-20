@@ -13,7 +13,7 @@ class UsuarioModel{
     }
     
     public function iniciarSesionUser($rut,$clave){
-        $stm = Conexion::conector()->prepare("SELECT * FROM usuario WHERE rut=:A AND clave=:B AND estado=1");
+        $stm = Conexion::conector()->prepare("SELECT * FROM usuario WHERE rut=:A AND clave=:B AND estado=1 AND rol='vendedor'");
         $stm->bindParam(":A",$rut);
         $stm->bindParam(":B",md5($clave));
         $stm->execute();
