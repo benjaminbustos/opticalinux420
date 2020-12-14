@@ -26,10 +26,11 @@
                 <a href="#" class="brand-logo ">
                 <img class="logo" src="../img/ojo.png">
                     Bienvenido <?= $_SESSION['usuario']['nombre'] ?></a>
+                    
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li class="active"><a href="#">Crear Cliente</a></li>
-                    <li><a href="#">Buscar Receta</a></li>
-                    <li><a href="#">Ingreso</a></li>
+                    <li class="active"><a href="crearCliente.php">Crear Cliente</a></li>
+                    <li><a href="buscarReceta.php">Buscar Receta</a></li>
+                    <li><a href="ingresoCliente.php">Ingreso</a></li>
                     <li><a href="salir.php">Salir</a></li>
                 </ul>
             </div>
@@ -45,9 +46,9 @@
                     <a href="#name"><span class="white-text name"><?= $_SESSION['usuario']['nombre'] ?></span></a>
                     <a href="#email"><span class="white-text email"><?= $_SESSION['usuario']['rol'] ?></span></a>
             </li></div>
-            <li class="active"><a href="#">Crear Cliente</a></li>
-            <li><a href="#">Buscar Receta</a></li>
-            <li><a href="#">Ingreso</a></li>
+            <li class="active"><a href="crearCliente.php">Crear Cliente</a></li>
+            <li><a href="buscarReceta.php">Buscar Receta</a></li>
+            <li><a href="ingresoCliente.php">Ingreso</a></li>
             <li><div class="divider"></div></li>
             <li><a href="salir.php">Salir</a></li>
         </ul>
