@@ -30,7 +30,7 @@
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li class="active"><a href="crearCliente.php">Crear Cliente</a></li>
                     <li><a href="buscarReceta.php">Buscar Receta</a></li>
-                    <li><a href="ingresoCliente.php">Ingreso</a></li>
+                    <li><a href="ingresoReceta.php">Ingreso</a></li>
                     <li><a href="salir.php">Salir</a></li>
                 </ul>
             </div>
@@ -48,7 +48,7 @@
             </li></div>
             <li class="active"><a href="crearCliente.php">Crear Cliente</a></li>
             <li><a href="buscarReceta.php">Buscar Receta</a></li>
-            <li><a href="ingresoCliente.php">Ingreso</a></li>
+            <li><a href="ingresoReceta.php">Ingreso</a></li>
             <li><div class="divider"></div></li>
             <li><a href="salir.php">Salir</a></li>
         </ul>

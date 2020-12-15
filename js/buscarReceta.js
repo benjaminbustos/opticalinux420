@@ -25,6 +25,7 @@ new Vue({
       }
     },
     buscarFecha: async function () {
+      this.fecha=M.Datepicker.getInstance(buscar_fecha);
       var recurso = "controllers/BuscarRecetaXFecha.php";
       var form = new FormData();
       form.append("fecha", this.fecha);

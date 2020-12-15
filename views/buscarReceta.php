@@ -29,7 +29,7 @@
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="crearCliente.php">Crear Cliente<i class="material-icons left">assignment_ind</i></a></li>
                     <li class="active"><a href="buscarReceta.php">Buscar Receta <i class="material-icons left">search</i></a></li>
-                    <li><a href="ingresoCliente.php">Ingreso <i class="material-icons left">playlist_add</i></a></li>
+                    <li><a href="ingresoReceta.php">Ingreso <i class="material-icons left">playlist_add</i></a></li>
                     <li><a href="salir.php">Salir <i class="material-icons left">power_settings_new</i></a></li>
                 </ul>
             </div>
@@ -47,7 +47,7 @@
             </li></div>
             <li><a href="crearCliente.php">Crear Cliente</a></li>
             <li class="active"><a href="buscarReceta.php">Buscar Receta</a></li>
-            <li><a href="ingresoCliente.php">Ingreso</a></li>
+            <li><a href="ingresoReceta.php">Ingreso</a></li>
             <li><div class="divider"></div></li>
             <li><a href="salir.php">Salir</a></li>
         </ul>
@@ -70,7 +70,7 @@
                 <div class="col l6 m4 s12">
                     <form @submit.prevent="buscarFecha">
                         <div class="input-field">
-                            <input type="text" class="datepicker" v-model="fecha">
+                            <input type="text" class="datepicker" v-model="fecha" id="buscar_fecha">
                             <label for="fecha">Fecha creación</label>
                         </div>
                         <button class="btn black ancho-100">
@@ -100,7 +100,9 @@
                             </button>
                         </td>
                         <td>
-                            <img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="">
+                            <button class="button-icon">
+                                <img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="">
+                            </button>
                         </td>
                     </tr>
                 </table>
