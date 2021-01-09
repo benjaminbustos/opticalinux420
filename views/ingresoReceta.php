@@ -27,10 +27,10 @@
                     Bienvenido <?= $_SESSION['usuario']['nombre'] ?></a>
                     
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="crearCliente.php">Crear Cliente</a></li>
-                    <li><a href="buscarReceta.php">Buscar Receta</a></li>
-                    <li class="active"><a href="ingresoReceta.php">Ingreso</a></li>
-                    <li><a href="salir.php">Salir</a></li>
+                    <li><a href="crearCliente.php">Crear Cliente<i class="material-icons left">assignment_ind</i></a></li>
+                    <li><a href="buscarReceta.php">Buscar Receta<i class="material-icons left">search</i></a></li>
+                    <li class="active"><a href="ingresoReceta.php">Ingreso<i class="material-icons left">playlist_add</i></a></li>
+                    <li><a href="salir.php">Salir<i class="material-icons left">power_settings_new</i></a></li>
                 </ul>
             </div>
         </nav>
@@ -133,7 +133,7 @@
                     </div>
 
                     <div class="col l6 m6 s12" style=" transform: translateY(-20%); ">
-                        <div class="col l6 m6 s12" style="border: 1px solid blue;">
+                        <div class="col l6 m6 s12" >
                             <h6 class="center">Ojo izquierdo</h6>
                             <div class="input-field margin-inputs back-field col l8">
                                 <input type="text" v-model="i_esfera">
@@ -148,7 +148,7 @@
                                 <label for="esfera">Eje</label>
                             </div>
                         </div>
-                        <div class="col l6 m6 s12 " style="border: 1px solid red;" >
+                        <div class="col l6 m6 s12 "  >
                             <h6 class="center">Ojo derecho</h6>
                             <div class="input-field margin-inputs back-field col l8 ">
                                 <input type="text" v-model="d_esfera" >
@@ -169,7 +169,7 @@
                 <hr >
 
                 <div class="row">
-                    <div class="col l4 m6 s12" style="border: 1px solid red;">
+                    <div class="col l4 m6 s12" >
                         <div class="input-field margin-inputs back-field col l8">
                             <input type="text" v-model="prisma" >
                             <label for="prisma">Prisma</label>
@@ -185,7 +185,7 @@
                         </div>
                     </div>
 
-                    <div class="col l4 m6 s12" style="border: 1px solid blue;">
+                    <div class="col l4 m6 s12" >
                         <div class="input-field back-field col l8">
                             <input type="text" class="datepicker" name="fecha" id="fecha_entrega">
                             <label for="fecha">Fecha de entrega</label>
@@ -204,7 +204,7 @@
                         </div>
                     </div>
 
-                    <div class="col l4 m6 s12" style="border: 1px solid green;">
+                    <div class="col l4 m6 s12" >
                         <div class="input-field back-field col l8">
                             <input type="text" class="datepicker" name="fecha" id="fecha_retiro">
                             <label for="fecha">Fecha de retiro</label>

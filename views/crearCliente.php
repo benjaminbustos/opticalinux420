@@ -28,10 +28,10 @@
                     Bienvenido <?= $_SESSION['usuario']['nombre'] ?></a>
                     
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li class="active"><a href="crearCliente.php">Crear Cliente</a></li>
-                    <li><a href="buscarReceta.php">Buscar Receta</a></li>
-                    <li><a href="ingresoReceta.php">Ingreso</a></li>
-                    <li><a href="salir.php">Salir</a></li>
+                    <li class="active"><a href="crearCliente.php">Crear Cliente<i class="material-icons left">assignment_ind</i></a></li>
+                    <li><a href="buscarReceta.php">Buscar Receta<i class="material-icons left">search</i></a></li>
+                    <li><a href="ingresoReceta.php">Ingreso<i class="material-icons left">playlist_add</i></a></li>
+                    <li><a href="salir.php">Salir<i class="material-icons left">power_settings_new</i></a></li>
                 </ul>
             </div>
         </nav>

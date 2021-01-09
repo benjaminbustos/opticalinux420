@@ -100,8 +100,8 @@
                             </button>
                         </td>
                         <td>
-                            <button class="button-icon">
-                                <img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="">
+                            <button class="pdf">
+                                <img @click="generarPDF(r.id)" height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="">
                             </button>
                         </td>
                     </tr>
