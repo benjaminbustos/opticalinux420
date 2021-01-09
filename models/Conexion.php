@@ -8,9 +8,9 @@ class Conexion{
     public static $URL="mysql:host=localhost;dbname=optica_2020";
     */
     
-    public static $user="unzdzskbuhowwfza";
-    public static $pass="06b7QY15Ngz4iJflWP4I";
-    public static $URL="mysql:host=bhk6hr0a52u3xsopajvx-mysql.services.clever-cloud.com;dbname=bhk6hr0a52u3xsopajvx";
+    public static $user="ec2-user";
+    public static $pass="lml";
+    public static $URL="mysql:host=172.31.43.53;dbname=optica_2020";
     
     public static function conector(){
         try{
